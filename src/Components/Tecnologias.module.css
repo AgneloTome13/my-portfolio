@@ -1,0 +1,66 @@
+.tecnologias{
+    padding-top: 20px;
+}
+
+.tecnologias .pr1{
+    color: #999;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tecnologias .cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tecnologias .cards div{
+    flex: 1 1 200px;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 8px;
+}
+
+.tecnologias .cards div .html svg{
+    font-size: 50px;
+    color: #f16529;
+}
+
+.tecnologias .cards div .css svg{
+    font-size: 50px;
+    color: #264de4;
+}
+
+.tecnologias .cards div .bootstrap svg{
+    font-size: 50px;
+    color: #563d7c;
+}
+
+.tecnologias .cards div .js svg{
+    font-size: 50px;
+    color: #f7df1e;
+}
+
+.tecnologias .cards div .php svg{
+    font-size: 50px;
+    color: #777bb3;
+}
+
+.tecnologias .cards div .laravel svg{
+    font-size: 50px;
+    color: #f55247;
+}
+
+.tecnologias .cards div .mysql svg{
+    font-size: 50px;
+    color: #00758f;
+}
+
+.tecnologias .cards div .react svg{
+    font-size: 50px;
+    color: #61DBFB;
+}

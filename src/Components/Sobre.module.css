@@ -1,0 +1,17 @@
+.sobre{
+    padding-top: 40px;
+}
+
+.sobre p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sobre .pr1{
+    color: #999;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
