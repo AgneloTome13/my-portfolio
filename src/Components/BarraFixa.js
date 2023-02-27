@@ -2,6 +2,7 @@ import img_perfil from '../img/perfil.png';
 import style from './BarraFixa.module.css';
 import {FaFacebookF, FaWhatsapp, FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BiEnvelope, BiPhone} from 'react-icons/bi';
+import cv from '../ficheiro/curriculo.pdf';
 
 function BarraFixa(){
     return(
@@ -10,9 +11,9 @@ function BarraFixa(){
             <h2>Agnelo Tomé</h2>
             
             <div className={style.social}>
-                <a href='https://github.com/agnelotome13'><FaFacebookF/></a>
+                <a href='https://m.facebook.com/profile.php?id=100004972562239'><FaFacebookF/></a>
                 <a href='https://www.linkedin.com/in/agnelo-tom%C3%A9-849046262/'><FaLinkedinIn/></a>
-                <a href='https://github.com/agnelotome13'><FaWhatsapp/></a>
+                <a href='https://api.whatsapp.com/send?phone=244929741837&text='><FaWhatsapp/></a>
                 <a href='https://github.com/AgneloTome13'><FaGithub/></a>
             </div>
 
@@ -29,7 +30,7 @@ function BarraFixa(){
                 </div>
             </div>
 
-            <button>Conferir Currículo</button>
+            <a href={cv} className={style.cv}>Conferir Currículo</a>
 
             <p className={style.copy}>&copy; Agnelo Tomé</p>
        </section>
