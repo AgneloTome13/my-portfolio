@@ -26,7 +26,7 @@ function BarraFixa(){
                 <div className={style.telefone}>
                     <h3>Telefone</h3>
                     <p><span><BiPhone/></span> +244 929741837</p>
-                    <p><span><BiPhone/></span> +244 929741837</p>
+                    <p><span><BiPhone/></span> +244 953650266</p>
                 </div>
             </div>
 
