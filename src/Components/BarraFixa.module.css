@@ -71,13 +71,12 @@
     color: #fff;
     border: none;
     font-size: 18px;
-    transition: .5s;
     text-decoration: none;
 }
 
 .container_barra .cv:hover{
     cursor: pointer;
-    background-color: #007aff;
+    background-image: linear-gradient(45deg,#0470DC, #13F1FC);
 }
 
 @media(max-width:991px){
