@@ -1,6 +1,7 @@
 import style from './Projetos.module.css';
 import p1 from '../img/p1.png';
 import p2 from '../img/p2.png';
+import p3 from '../img/p3.png';
 import { FaLink } from 'react-icons/fa';
 
 function Projetos(){
@@ -19,10 +20,18 @@ function Projetos(){
                 </div>
 
                 <div className={style.card}>
-                    <img src={p2} alt='My Quiz'/>
+                    <img src={p2} alt='Boa Imagem'/>
                     <div>
-                        <p>Jogo de perguntas e respostas de cultura geral desenvolvido em PHP com banco de dados MySQL e interface utilizando o framework Bootstrap.</p>
-                        <a href='https://jogo-quiz.000webhostapp.com/'><FaLink/> Vizualizar</a>
+                        <p>Restaurante Etiópe conhecido como Mesob Habesha. HTML, CSS, JavaScript, PHP e Mysql são as tecnologias usadas no desenvolvimento do site.</p>
+                        <a href='https://www.restaurantmesobhabesha.com/'><FaLink/> Vizualizar</a>
+                    </div>
+                </div>
+
+                <div className={style.card}>
+                    <img src={p3} alt='Boa Imagem'/>
+                    <div>
+                        <p>TST - Soluções tecnológicas, página institucional de serviços tecnológicos desenvolvido utilizando o framework Laravel, banco de dados MySQL.</p>
+                        <a href='https://tst.ao/'><FaLink/> Vizualizar</a>
                     </div>
                 </div>
             </div>
